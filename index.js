@@ -5,7 +5,7 @@ const github = require("./lib/github")
 
 
 const makeContent = ({name,description,watchers,clone_url,language}) => {
-    return `## [${name}](${clone_url})\n **Description:** ${description}\n **Stars:** ${watchers} \n **Language:** ${language} \n\n`
+    return `### [${name}](${clone_url})\n **Description:** ${description}\n **Stars:** ${watchers} \n **Language:** ${language} \n\n`
 }
 
 const getContent = async (username,count) =>{
