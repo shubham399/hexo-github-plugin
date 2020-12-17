@@ -1,7 +1,7 @@
 # hexo-github-plugin
 
 ![build](https://github.com/shubham399/hexo-github-plugin/workflows/build/badge.svg)
-
+[![npm version](https://badge.fury.io/js/%20hexo-github-plugin.svg)](https://badge.fury.io/js/%20hexo-github-plugin)
 
 This Project Will pull repo Details from github and append the content in the `Project` page
 
