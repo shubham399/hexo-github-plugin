@@ -31,7 +31,7 @@ hexo.extend.filter.register('before_post_render', async function(data){
   let projectCount = config.projects_count || 5;
   if((title == 'project' || title == 'projects') && data.layout === 'page')
   {
-      data.content = await getContent(username,projectCount)
+      data.content += await getContent(username,projectCount)
   }
   return data;
 },0,{ async: true });
