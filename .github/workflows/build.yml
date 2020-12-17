@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: npm test
       - name: Update version in package.json
         uses: maks-stupak/gh-action-bump-version@v7.1.5
 
