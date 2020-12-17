@@ -11,7 +11,7 @@ const makeContent = ({name,description,watchers,clone_url,language}) => {
 const getContent = async (username,count) =>{
     let content = ''
     let githubContent = await github.get(username);
-    for(let i =0;i<count;i++){
+    for(let i =0;i<count && i < githubContent.length ;i++){
         content += makeContent(githubContent[i]);
     }
     return content
