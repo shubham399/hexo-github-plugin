@@ -26,3 +26,7 @@ projects:
 And create a project/projects page.
 
 and run `hexo g` to generate the pages.
+
+
+
+Note: This will only pull project if that has a description and is not forked and not archived.
